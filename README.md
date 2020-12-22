@@ -15,3 +15,4 @@ Dashboard de Campanhas2|
 Branch Name|Qlik application
 ---|---
 main|[https://bi.ramada.com.br/sense/app/34d5dcdd-8d46-42ad-9aae-af4ae0c03ff5](https://bi.ramada.com.br/sense/app/34d5dcdd-8d46-42ad-9aae-af4ae0c03ff5)
+rodrigo|[https://bi.ramada.com.br/sense/app/2add0992-5fc7-44ac-952d-5e0c7c71bc34](https://bi.ramada.com.br/sense/app/2add0992-5fc7-44ac-952d-5e0c7c71bc34)
