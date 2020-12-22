@@ -1,0 +1,1209 @@
+[
+  {
+    "qIsHidden": true,
+    "qIsSystem": true,
+    "qName": "$Field",
+    "qCardinal": 106,
+    "qTags": [
+      "$text",
+      "$key",
+      "$hidden",
+      "$system"
+    ],
+    "qSrcTables": []
+  },
+  {
+    "qIsHidden": true,
+    "qIsSystem": true,
+    "qName": "$FieldNo",
+    "qCardinal": 61,
+    "qTags": [
+      "$numeric",
+      "$integer",
+      "$hidden",
+      "$system"
+    ],
+    "qSrcTables": []
+  },
+  {
+    "qIsHidden": true,
+    "qIsSystem": true,
+    "qName": "$Fields",
+    "qCardinal": 4,
+    "qTags": [
+      "$numeric",
+      "$integer",
+      "$hidden",
+      "$system"
+    ],
+    "qSrcTables": []
+  },
+  {
+    "qIsHidden": true,
+    "qIsSystem": true,
+    "qName": "$Info",
+    "qCardinal": 1,
+    "qTags": [
+      "$ascii",
+      "$text",
+      "$hidden",
+      "$system"
+    ],
+    "qSrcTables": []
+  },
+  {
+    "qIsHidden": true,
+    "qIsSystem": true,
+    "qName": "$Rows",
+    "qCardinal": 4,
+    "qTags": [
+      "$numeric",
+      "$integer",
+      "$hidden",
+      "$system"
+    ],
+    "qSrcTables": []
+  },
+  {
+    "qIsHidden": true,
+    "qIsSystem": true,
+    "qName": "$Table",
+    "qCardinal": 4,
+    "qTags": [
+      "$ascii",
+      "$text",
+      "$key",
+      "$hidden",
+      "$system"
+    ],
+    "qSrcTables": []
+  },
+  {
+    "qName": "%CampVend",
+    "qCardinal": 171,
+    "qTags": [
+      "$ascii",
+      "$text",
+      "$key"
+    ],
+    "qSrcTables": [
+      "CAMPANHA_REVENDEDOR",
+      "TB_PREMIACOES_FIXAS"
+    ]
+  },
+  {
+    "qName": "%Rateio",
+    "qCardinal": 21,
+    "qTags": [
+      "$numeric"
+    ],
+    "qSrcTables": [
+      "TB_PREMIACOES_FIXAS"
+    ]
+  },
+  {
+    "qName": "%Vend",
+    "qCardinal": 267,
+    "qTags": [
+      "$numeric",
+      "$integer",
+      "$key"
+    ],
+    "qSrcTables": [
+      "CAMPANHA_REVENDEDOR",
+      "VENDEDOR"
+    ]
+  },
+  {
+    "qName": "AD_APONTA_VENDPF",
+    "qCardinal": 30,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "VENDEDOR"
+    ]
+  },
+  {
+    "qName": "APELIDO",
+    "qCardinal": 198,
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "VENDEDOR"
+    ]
+  },
+  {
+    "qName": "ATINGIU_MIN",
+    "qCardinal": 1,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "TB_PREMIACOES_FIXAS"
+    ]
+  },
+  {
+    "qName": "ATINGIU_OBJ_GLOBAL",
+    "qCardinal": 1,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "CAMPANHA_REVENDEDOR"
+    ]
+  },
+  {
+    "qName": "ATIVA",
+    "qCardinal": 1,
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "CAMPANHA_REVENDEDOR"
+    ]
+  },
+  {
+    "qName": "ATIVO",
+    "qCardinal": 2,
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "VENDEDOR"
+    ]
+  },
+  {
+    "qName": "Ano",
+    "qCardinal": 2,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "CAMPANHA_DATA_VIGENTE"
+    ]
+  },
+  {
+    "qName": "CARTEIRA_CLIENTE",
+    "qCardinal": 61,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "CAMPANHA_REVENDEDOR"
+    ]
+  },
+  {
+    "qName": "CODCAMP",
+    "qCardinal": 4,
+    "qTags": [
+      "$numeric",
+      "$integer",
+      "$key"
+    ],
+    "qSrcTables": [
+      "CAMPANHA_DATA_VIGENTE",
+      "CAMPANHA_REVENDEDOR"
+    ]
+  },
+  {
+    "qName": "CODGER",
+    "qCardinal": 5,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "VENDEDOR"
+    ]
+  },
+  {
+    "qName": "CODGRUPOPROD",
+    "qCardinal": 34,
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "CAMPANHA_REVENDEDOR"
+    ]
+  },
+  {
+    "qName": "CODPARCFORN",
+    "qCardinal": 4,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "CAMPANHA_REVENDEDOR"
+    ]
+  },
+  {
+    "qName": "CODPARC_VEND",
+    "qCardinal": 2098,
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "CAMPANHA_REVENDEDOR"
+    ]
+  },
+  {
+    "qName": "CODPREMIACAO",
+    "qCardinal": 2,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "TB_PREMIACOES_FIXAS"
+    ]
+  },
+  {
+    "qName": "CODPROD",
+    "qCardinal": 760,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "CAMPANHA_REVENDEDOR"
+    ]
+  },
+  {
+    "qName": "CODVEND",
+    "qCardinal": 91,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "CAMPANHA_REVENDEDOR"
+    ]
+  },
+  {
+    "qName": "CampGrupoFat",
+    "qCardinal": 2,
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "CAMPANHA_REVENDEDOR"
+    ]
+  },
+  {
+    "qName": "CampGrupoMix",
+    "qCardinal": 1,
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "CAMPANHA_REVENDEDOR"
+    ]
+  },
+  {
+    "qName": "CampGrupoPos",
+    "qCardinal": 2,
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "CAMPANHA_REVENDEDOR"
+    ]
+  },
+  {
+    "qName": "DESCRCAMP",
+    "qCardinal": 4,
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "CAMPANHA_REVENDEDOR"
+    ]
+  },
+  {
+    "qName": "DESCRFILTRO",
+    "qCardinal": 5,
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "CAMPANHA_REVENDEDOR"
+    ]
+  },
+  {
+    "qName": "DESCRPROD",
+    "qCardinal": 183,
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "CAMPANHA_REVENDEDOR"
+    ]
+  },
+  {
+    "qName": "DIAS_UTEIS_DECORRIDOS",
+    "qCardinal": 2,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "CAMPANHA_REVENDEDOR"
+    ]
+  },
+  {
+    "qName": "DIAS_UTEIS_DURACAO",
+    "qCardinal": 2,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "CAMPANHA_REVENDEDOR"
+    ]
+  },
+  {
+    "qName": "DTFATUR",
+    "qCardinal": 36,
+    "qTags": [
+      "$numeric",
+      "$integer",
+      "$timestamp",
+      "$date"
+    ],
+    "qSrcTables": [
+      "CAMPANHA_REVENDEDOR"
+    ]
+  },
+  {
+    "qName": "DTFATUR_ANO",
+    "qCardinal": 1,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "CAMPANHA_REVENDEDOR"
+    ]
+  },
+  {
+    "qName": "DTFATUR_MES",
+    "qCardinal": 2,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "CAMPANHA_REVENDEDOR"
+    ]
+  },
+  {
+    "qName": "DTFATUR_NUMMES",
+    "qCardinal": 2,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "CAMPANHA_REVENDEDOR"
+    ]
+  },
+  {
+    "qName": "DTFIM",
+    "qCardinal": 2,
+    "qTags": [
+      "$numeric",
+      "$integer",
+      "$timestamp",
+      "$date"
+    ],
+    "qSrcTables": [
+      "CAMPANHA_REVENDEDOR"
+    ]
+  },
+  {
+    "qName": "DTINI",
+    "qCardinal": 2,
+    "qTags": [
+      "$numeric",
+      "$integer",
+      "$timestamp",
+      "$date"
+    ],
+    "qSrcTables": [
+      "CAMPANHA_REVENDEDOR"
+    ]
+  },
+  {
+    "qName": "Data",
+    "qCardinal": 3,
+    "qTags": [
+      "$numeric",
+      "$integer",
+      "$timestamp",
+      "$date"
+    ],
+    "qSrcTables": [
+      "CAMPANHA_DATA_VIGENTE"
+    ]
+  },
+  {
+    "qName": "EMAIL",
+    "qCardinal": 146,
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "VENDEDOR"
+    ]
+  },
+  {
+    "qName": "FATMIN",
+    "qCardinal": 2,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "CAMPANHA_REVENDEDOR"
+    ]
+  },
+  {
+    "qName": "FATURAMENTO",
+    "qCardinal": 5023,
+    "qTags": [
+      "$numeric"
+    ],
+    "qSrcTables": [
+      "CAMPANHA_REVENDEDOR"
+    ]
+  },
+  {
+    "qName": "FATURAMENTOGLOBAL",
+    "qCardinal": 4,
+    "qTags": [
+      "$numeric"
+    ],
+    "qSrcTables": [
+      "CAMPANHA_REVENDEDOR"
+    ]
+  },
+  {
+    "qName": "FATURAMENTO_PROJECAO",
+    "qCardinal": 4,
+    "qTags": [
+      "$numeric"
+    ],
+    "qSrcTables": [
+      "CAMPANHA_REVENDEDOR"
+    ]
+  },
+  {
+    "qName": "FIXAS_CARTEIRA_CLIENTE",
+    "qCardinal": 61,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "TB_PREMIACOES_FIXAS"
+    ]
+  },
+  {
+    "qName": "FIXAS_CODCAMP",
+    "qCardinal": 4,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "TB_PREMIACOES_FIXAS"
+    ]
+  },
+  {
+    "qName": "FIXAS_FATMIN",
+    "qCardinal": 2,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "TB_PREMIACOES_FIXAS"
+    ]
+  },
+  {
+    "qName": "FIXAS_FATURAMENTO",
+    "qCardinal": 170,
+    "qTags": [
+      "$numeric"
+    ],
+    "qSrcTables": [
+      "TB_PREMIACOES_FIXAS"
+    ]
+  },
+  {
+    "qName": "FIXAS_MIX",
+    "qCardinal": 86,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "TB_PREMIACOES_FIXAS"
+    ]
+  },
+  {
+    "qName": "FIXAS_MIXMIN",
+    "qCardinal": 0,
+    "qTags": [],
+    "qSrcTables": [
+      "TB_PREMIACOES_FIXAS"
+    ]
+  },
+  {
+    "qName": "FIXAS_PERC_CARTEIRA",
+    "qCardinal": 0,
+    "qTags": [],
+    "qSrcTables": [
+      "TB_PREMIACOES_FIXAS"
+    ]
+  },
+  {
+    "qName": "FIXAS_POSITIV",
+    "qCardinal": 43,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "TB_PREMIACOES_FIXAS"
+    ]
+  },
+  {
+    "qName": "FIXAS_POSMINPERC",
+    "qCardinal": 0,
+    "qTags": [],
+    "qSrcTables": [
+      "TB_PREMIACOES_FIXAS"
+    ]
+  },
+  {
+    "qName": "FIXAS_POSMINQTD",
+    "qCardinal": 0,
+    "qTags": [],
+    "qSrcTables": [
+      "TB_PREMIACOES_FIXAS"
+    ]
+  },
+  {
+    "qName": "FIXAS_QTDPREMIADOS",
+    "qCardinal": 0,
+    "qTags": [],
+    "qSrcTables": [
+      "TB_PREMIACOES_FIXAS"
+    ]
+  },
+  {
+    "qName": "FIXAS_TEM_FATMIN",
+    "qCardinal": 2,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "TB_PREMIACOES_FIXAS"
+    ]
+  },
+  {
+    "qName": "FIXAS_TEM_MIXMIN",
+    "qCardinal": 1,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "TB_PREMIACOES_FIXAS"
+    ]
+  },
+  {
+    "qName": "FIXAS_TEM_POSMINPERC",
+    "qCardinal": 1,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "TB_PREMIACOES_FIXAS"
+    ]
+  },
+  {
+    "qName": "FIXAS_TEM_POSMINQTD",
+    "qCardinal": 1,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "TB_PREMIACOES_FIXAS"
+    ]
+  },
+  {
+    "qName": "FIXAS_TIPOPREMIACAO",
+    "qCardinal": 2,
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "TB_PREMIACOES_FIXAS"
+    ]
+  },
+  {
+    "qName": "FIXAS_objRevendFat",
+    "qCardinal": 60,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "TB_PREMIACOES_FIXAS"
+    ]
+  },
+  {
+    "qName": "FIXAS_objRevendMix",
+    "qCardinal": 39,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "TB_PREMIACOES_FIXAS"
+    ]
+  },
+  {
+    "qName": "FIXAS_objRevendPos",
+    "qCardinal": 0,
+    "qTags": [],
+    "qSrcTables": [
+      "TB_PREMIACOES_FIXAS"
+    ]
+  },
+  {
+    "qName": "FIXAS_temObjRevendFat",
+    "qCardinal": 1,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "TB_PREMIACOES_FIXAS"
+    ]
+  },
+  {
+    "qName": "FIXAS_temObjRevendMix",
+    "qCardinal": 2,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "TB_PREMIACOES_FIXAS"
+    ]
+  },
+  {
+    "qName": "FIXAS_temObjRevendPos",
+    "qCardinal": 1,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "TB_PREMIACOES_FIXAS"
+    ]
+  },
+  {
+    "qName": "GRUPOPARTIC",
+    "qCardinal": 2,
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "CAMPANHA_REVENDEDOR"
+    ]
+  },
+  {
+    "qName": "INDICADOR",
+    "qCardinal": 2,
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "CAMPANHA_REVENDEDOR"
+    ]
+  },
+  {
+    "qName": "INDICADORPREMIO",
+    "qCardinal": 2,
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "TB_PREMIACOES_FIXAS"
+    ]
+  },
+  {
+    "qName": "Indicador",
+    "qCardinal": 2,
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "CAMPANHA_REVENDEDOR"
+    ]
+  },
+  {
+    "qName": "MARCA",
+    "qCardinal": 20,
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "CAMPANHA_REVENDEDOR"
+    ]
+  },
+  {
+    "qName": "MIXMIN",
+    "qCardinal": 0,
+    "qTags": [],
+    "qSrcTables": [
+      "CAMPANHA_REVENDEDOR"
+    ]
+  },
+  {
+    "qName": "Mês",
+    "qCardinal": 3,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "CAMPANHA_DATA_VIGENTE"
+    ]
+  },
+  {
+    "qName": "NUMNOTA",
+    "qCardinal": 4925,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "CAMPANHA_REVENDEDOR"
+    ]
+  },
+  {
+    "qName": "NUNOTA",
+    "qCardinal": 4925,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "CAMPANHA_REVENDEDOR"
+    ]
+  },
+  {
+    "qName": "OBJGLOBAL",
+    "qCardinal": 2,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "CAMPANHA_REVENDEDOR"
+    ]
+  },
+  {
+    "qName": "OPERACAO",
+    "qCardinal": 1,
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "CAMPANHA_REVENDEDOR"
+    ]
+  },
+  {
+    "qName": "PERCENTUALGLOBAL",
+    "qCardinal": 2,
+    "qTags": [
+      "$numeric"
+    ],
+    "qSrcTables": [
+      "CAMPANHA_REVENDEDOR"
+    ]
+  },
+  {
+    "qName": "PERCENTUAL_PROJECAO",
+    "qCardinal": 2,
+    "qTags": [
+      "$numeric"
+    ],
+    "qSrcTables": [
+      "CAMPANHA_REVENDEDOR"
+    ]
+  },
+  {
+    "qName": "PERC_CARTEIRA",
+    "qCardinal": 0,
+    "qTags": [],
+    "qSrcTables": [
+      "CAMPANHA_REVENDEDOR"
+    ]
+  },
+  {
+    "qName": "POSMINPERC",
+    "qCardinal": 0,
+    "qTags": [],
+    "qSrcTables": [
+      "CAMPANHA_REVENDEDOR"
+    ]
+  },
+  {
+    "qName": "POSMINQTD",
+    "qCardinal": 0,
+    "qTags": [],
+    "qSrcTables": [
+      "CAMPANHA_REVENDEDOR"
+    ]
+  },
+  {
+    "qName": "PREMIOGANHO",
+    "qCardinal": 8,
+    "qTags": [
+      "$numeric"
+    ],
+    "qSrcTables": [
+      "TB_PREMIACOES_FIXAS"
+    ]
+  },
+  {
+    "qName": "Posicao",
+    "qCardinal": 79,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "TB_PREMIACOES_FIXAS"
+    ]
+  },
+  {
+    "qName": "QTDPREMIADOS",
+    "qCardinal": 0,
+    "qTags": [],
+    "qSrcTables": [
+      "CAMPANHA_REVENDEDOR"
+    ]
+  },
+  {
+    "qName": "RANK_PREMIO",
+    "qCardinal": 1,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "TB_PREMIACOES_FIXAS"
+    ]
+  },
+  {
+    "qName": "RATEIO_PREMIO",
+    "qCardinal": 1,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "TB_PREMIACOES_FIXAS"
+    ]
+  },
+  {
+    "qName": "TEM_FATMIN",
+    "qCardinal": 2,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "CAMPANHA_REVENDEDOR"
+    ]
+  },
+  {
+    "qName": "TEM_MIXMIN",
+    "qCardinal": 1,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "CAMPANHA_REVENDEDOR"
+    ]
+  },
+  {
+    "qName": "TEM_POSMINPERC",
+    "qCardinal": 1,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "CAMPANHA_REVENDEDOR"
+    ]
+  },
+  {
+    "qName": "TEM_POSMINQTD",
+    "qCardinal": 1,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "CAMPANHA_REVENDEDOR"
+    ]
+  },
+  {
+    "qName": "TIPOBJETIVO",
+    "qCardinal": 1,
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "CAMPANHA_REVENDEDOR"
+    ]
+  },
+  {
+    "qName": "TIPOPREMIACAO",
+    "qCardinal": 2,
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "CAMPANHA_REVENDEDOR"
+    ]
+  },
+  {
+    "qName": "TIPVEND",
+    "qCardinal": 6,
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "VENDEDOR"
+    ]
+  },
+  {
+    "qName": "TOTALFAT_DOS_PREMIADOS",
+    "qCardinal": 2,
+    "qTags": [
+      "$numeric"
+    ],
+    "qSrcTables": [
+      "TB_PREMIACOES_FIXAS"
+    ]
+  },
+  {
+    "qName": "TPFILTRO",
+    "qCardinal": 1,
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "CAMPANHA_REVENDEDOR"
+    ]
+  },
+  {
+    "qName": "Tipo Objetivo",
+    "qCardinal": 1,
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "CAMPANHA_REVENDEDOR"
+    ]
+  },
+  {
+    "qName": "Tipo Premiação",
+    "qCardinal": 2,
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "CAMPANHA_REVENDEDOR"
+    ]
+  },
+  {
+    "qName": "VLRITEM",
+    "qCardinal": 5023,
+    "qTags": [
+      "$numeric"
+    ],
+    "qSrcTables": [
+      "CAMPANHA_REVENDEDOR"
+    ]
+  },
+  {
+    "qName": "VLRMAX",
+    "qCardinal": 0,
+    "qTags": [
+      "$numeric"
+    ],
+    "qSrcTables": [
+      "TB_PREMIACOES_FIXAS"
+    ]
+  },
+  {
+    "qName": "VLRMIN",
+    "qCardinal": 0,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "TB_PREMIACOES_FIXAS"
+    ]
+  },
+  {
+    "qName": "VLRPREMIO",
+    "qCardinal": 4,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "TB_PREMIACOES_FIXAS"
+    ]
+  },
+  {
+    "qName": "VLRPREMIO_objRevend",
+    "qCardinal": 3,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "TB_PREMIACOES_FIXAS"
+    ]
+  },
+  {
+    "qName": "VLRPREMIO_temObjRevend",
+    "qCardinal": 0,
+    "qTags": [],
+    "qSrcTables": [
+      "TB_PREMIACOES_FIXAS"
+    ]
+  },
+  {
+    "qName": "objRevendFat",
+    "qCardinal": 60,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "CAMPANHA_REVENDEDOR"
+    ]
+  },
+  {
+    "qName": "objRevendMix",
+    "qCardinal": 39,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "CAMPANHA_REVENDEDOR"
+    ]
+  },
+  {
+    "qName": "objRevendPos",
+    "qCardinal": 0,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "CAMPANHA_REVENDEDOR"
+    ]
+  },
+  {
+    "qName": "okExclusao",
+    "qCardinal": 0,
+    "qTags": [],
+    "qSrcTables": [
+      "CAMPANHA_REVENDEDOR"
+    ]
+  },
+  {
+    "qName": "temObjRevendFat",
+    "qCardinal": 1,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "CAMPANHA_REVENDEDOR"
+    ]
+  },
+  {
+    "qName": "temObjRevendMix",
+    "qCardinal": 2,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "CAMPANHA_REVENDEDOR"
+    ]
+  },
+  {
+    "qName": "temObjRevendPos",
+    "qCardinal": 1,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "CAMPANHA_REVENDEDOR"
+    ]
+  }
+]

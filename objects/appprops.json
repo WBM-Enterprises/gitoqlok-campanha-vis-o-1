@@ -1,0 +1,24 @@
+[
+  {
+    "qProperty": {
+      "qInfo": {
+        "qId": "ed458ccd-2268-4d23-9290-6c2c4de70cdf",
+        "qType": "appprops"
+      },
+      "qMetaDef": {
+        "isBlueprintItem": true
+      },
+      "sheetTitleBgColor": "",
+      "sheetTitleGradientColor": "",
+      "sheetTitleColor": "",
+      "sheetLogoThumbnail": {
+        "qStaticContentUrlDef": {}
+      },
+      "sheetLogoPosition": "",
+      "rtl": false,
+      "theme": "sense",
+      "disableCellNavMenu": false
+    },
+    "qChildren": []
+  }
+]

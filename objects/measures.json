@@ -1,0 +1,367 @@
+[
+  {
+    "qInfo": {
+      "qId": "ME0",
+      "qType": "measure"
+    },
+    "qMeasure": {
+      "qLabel": "Faturamento",
+      "qDef": "Sum((VLRTOT - VLRDESC) * GOLDEV)",
+      "qGrouping": "N",
+      "qExpressions": [],
+      "qActiveExpression": 0,
+      "qNumFormat": {
+        "qType": "U",
+        "qnDec": 10,
+        "qUseThou": 0
+      }
+    },
+    "qMetaDef": {
+      "title": "Faturamento",
+      "description": "",
+      "tags": [
+        "CH01",
+        "converter-auto-created"
+      ],
+      "isBlueprintItem": true
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "ME1",
+      "qType": "measure"
+    },
+    "qMeasure": {
+      "qLabel": "Qtd Produtos",
+      "qDef": "Count(DISTINCT CODPROD)",
+      "qGrouping": "N",
+      "qExpressions": [],
+      "qActiveExpression": 0,
+      "qNumFormat": {
+        "qType": "U",
+        "qnDec": 10,
+        "qUseThou": 0
+      }
+    },
+    "qMetaDef": {
+      "title": "Qtd Produtos",
+      "description": "",
+      "tags": [
+        "CH01",
+        "converter-auto-created"
+      ],
+      "isBlueprintItem": true
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "ME10",
+      "qType": "measure"
+    },
+    "qMeasure": {
+      "qLabel": "Obj. Pos.",
+      "qDef": "objRevendPos",
+      "qGrouping": "N",
+      "qExpressions": [],
+      "qActiveExpression": 0,
+      "qNumFormat": {
+        "qType": "U",
+        "qnDec": 10,
+        "qUseThou": 0
+      }
+    },
+    "qMetaDef": {
+      "title": "Obj. Pos.",
+      "description": "",
+      "tags": [
+        "CH04",
+        "converter-auto-created"
+      ],
+      "isBlueprintItem": true
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "ME11",
+      "qType": "measure"
+    },
+    "qMeasure": {
+      "qLabel": "Positivação",
+      "qDef": "//Count(Distinct CODPARC_VEND)\nSum(DISTINCT FIXAS_POSITIV)",
+      "qGrouping": "N",
+      "qExpressions": [],
+      "qActiveExpression": 0,
+      "qNumFormat": {
+        "qType": "U",
+        "qnDec": 10,
+        "qUseThou": 0
+      }
+    },
+    "qMetaDef": {
+      "title": "Positivação",
+      "description": "",
+      "tags": [
+        "CH04",
+        "converter-auto-created"
+      ],
+      "isBlueprintItem": true
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "ME12",
+      "qType": "measure"
+    },
+    "qMeasure": {
+      "qLabel": "Prêmio",
+      "qDef": "Sum(PREMIOGANHO)",
+      "qGrouping": "N",
+      "qExpressions": [],
+      "qActiveExpression": 0,
+      "qNumFormat": {
+        "qType": "U",
+        "qnDec": 10,
+        "qUseThou": 0
+      }
+    },
+    "qMetaDef": {
+      "title": "Prêmio",
+      "description": "",
+      "tags": [
+        "CH04",
+        "CH07",
+        "converter-auto-created"
+      ],
+      "isBlueprintItem": true
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "ME2",
+      "qType": "measure"
+    },
+    "qMeasure": {
+      "qLabel": "Faturamento",
+      "qDef": "Sum(FATURAMENTO)",
+      "qGrouping": "N",
+      "qExpressions": [],
+      "qActiveExpression": 0,
+      "qNumFormat": {
+        "qType": "U",
+        "qnDec": 10,
+        "qUseThou": 0
+      }
+    },
+    "qMetaDef": {
+      "title": "Faturamento",
+      "description": "",
+      "tags": [
+        "CH02",
+        "CH04",
+        "CH06",
+        "CH07",
+        "CH08",
+        "CH13",
+        "converter-auto-created"
+      ],
+      "isBlueprintItem": true
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "ME3",
+      "qType": "measure"
+    },
+    "qMeasure": {
+      "qLabel": "Mix",
+      "qDef": "Count(Distinct CODPROD)",
+      "qGrouping": "N",
+      "qExpressions": [],
+      "qActiveExpression": 0,
+      "qNumFormat": {
+        "qType": "U",
+        "qnDec": 10,
+        "qUseThou": 0
+      }
+    },
+    "qMetaDef": {
+      "title": "Mix",
+      "description": "",
+      "tags": [
+        "CH02",
+        "CH06",
+        "CH07",
+        "CH08",
+        "CH14",
+        "converter-auto-created"
+      ],
+      "isBlueprintItem": true
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "ME4",
+      "qType": "measure"
+    },
+    "qMeasure": {
+      "qLabel": "Mix 2",
+      "qDef": "Sum(FIXAS_MIX)",
+      "qGrouping": "N",
+      "qExpressions": [],
+      "qActiveExpression": 0,
+      "qNumFormat": {
+        "qType": "U",
+        "qnDec": 10,
+        "qUseThou": 0
+      }
+    },
+    "qMetaDef": {
+      "title": "Mix 2",
+      "description": "",
+      "tags": [
+        "CH02",
+        "converter-auto-created"
+      ],
+      "isBlueprintItem": true
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "ME5",
+      "qType": "measure"
+    },
+    "qMeasure": {
+      "qLabel": "Positivação",
+      "qDef": "Count(Distinct CODPARC_VEND)",
+      "qGrouping": "N",
+      "qExpressions": [],
+      "qActiveExpression": 0,
+      "qNumFormat": {
+        "qType": "U",
+        "qnDec": 10,
+        "qUseThou": 0
+      }
+    },
+    "qMetaDef": {
+      "title": "Positivação",
+      "description": "",
+      "tags": [
+        "CH02",
+        "CH06",
+        "CH07",
+        "CH08",
+        "CH12",
+        "converter-auto-created"
+      ],
+      "isBlueprintItem": true
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "ME6",
+      "qType": "measure"
+    },
+    "qMeasure": {
+      "qLabel": "Positivação 2",
+      "qDef": "Sum(FIXAS_POSITIV)",
+      "qGrouping": "N",
+      "qExpressions": [],
+      "qActiveExpression": 0,
+      "qNumFormat": {
+        "qType": "U",
+        "qnDec": 10,
+        "qUseThou": 0
+      }
+    },
+    "qMetaDef": {
+      "title": "Positivação 2",
+      "description": "",
+      "tags": [
+        "CH02",
+        "converter-auto-created"
+      ],
+      "isBlueprintItem": true
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "ME7",
+      "qType": "measure"
+    },
+    "qMeasure": {
+      "qLabel": "Obj. Fat.",
+      "qDef": "objRevendFat",
+      "qGrouping": "N",
+      "qExpressions": [],
+      "qActiveExpression": 0,
+      "qNumFormat": {
+        "qType": "U",
+        "qnDec": 10,
+        "qUseThou": 0
+      }
+    },
+    "qMetaDef": {
+      "title": "Obj. Fat.",
+      "description": "",
+      "tags": [
+        "CH04",
+        "converter-auto-created"
+      ],
+      "isBlueprintItem": true
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "ME8",
+      "qType": "measure"
+    },
+    "qMeasure": {
+      "qLabel": "Obj. Mix",
+      "qDef": "objRevendMix",
+      "qGrouping": "N",
+      "qExpressions": [],
+      "qActiveExpression": 0,
+      "qNumFormat": {
+        "qType": "U",
+        "qnDec": 10,
+        "qUseThou": 0
+      }
+    },
+    "qMetaDef": {
+      "title": "Obj. Mix",
+      "description": "",
+      "tags": [
+        "CH04",
+        "converter-auto-created"
+      ],
+      "isBlueprintItem": true
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "ME9",
+      "qType": "measure"
+    },
+    "qMeasure": {
+      "qLabel": "Mix",
+      "qDef": "//Count(Distinct CODPROD)\nSum(DISTINCT FIXAS_MIX)",
+      "qGrouping": "N",
+      "qExpressions": [],
+      "qActiveExpression": 0,
+      "qNumFormat": {
+        "qType": "U",
+        "qnDec": 10,
+        "qUseThou": 0
+      }
+    },
+    "qMetaDef": {
+      "title": "Mix",
+      "description": "",
+      "tags": [
+        "CH04",
+        "converter-auto-created"
+      ],
+      "isBlueprintItem": true
+    }
+  }
+]

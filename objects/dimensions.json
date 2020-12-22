@@ -1,0 +1,979 @@
+[
+  {
+    "qInfo": {
+      "qId": "DI0",
+      "qType": "dimension"
+    },
+    "qDim": {
+      "qGrouping": "N",
+      "qFieldDefs": [
+        "CODVEND"
+      ],
+      "qFieldLabels": [
+        "Cód."
+      ],
+      "title": "Cód."
+    },
+    "qMetaDef": {
+      "title": "Cód.",
+      "description": "",
+      "tags": [
+        "CH01",
+        "CH02",
+        "CH04",
+        "CH06",
+        "CH07",
+        "CH08",
+        "converter-auto-created"
+      ],
+      "isBlueprintItem": true
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "DI1",
+      "qType": "dimension"
+    },
+    "qDim": {
+      "qGrouping": "N",
+      "qFieldDefs": [
+        "VENDEDOR.APELIDO"
+      ],
+      "qFieldLabels": [
+        "Vendedor"
+      ],
+      "title": "Vendedor"
+    },
+    "qMetaDef": {
+      "title": "Vendedor",
+      "description": "",
+      "tags": [
+        "CH01",
+        "converter-auto-created"
+      ],
+      "isBlueprintItem": true
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "DI10",
+      "qType": "dimension"
+    },
+    "qDim": {
+      "qGrouping": "N",
+      "qFieldDefs": [
+        "DTINI"
+      ],
+      "qFieldLabels": [
+        "Data Início"
+      ],
+      "title": "Data Início"
+    },
+    "qMetaDef": {
+      "title": "Data Início",
+      "description": "",
+      "tags": [
+        "TB04",
+        "TB07",
+        "TB14",
+        "converter-auto-created"
+      ],
+      "isBlueprintItem": true
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "DI11",
+      "qType": "dimension"
+    },
+    "qDim": {
+      "qGrouping": "N",
+      "qFieldDefs": [
+        "DTFIM"
+      ],
+      "qFieldLabels": [
+        "Data Fim"
+      ],
+      "title": "Data Fim"
+    },
+    "qMetaDef": {
+      "title": "Data Fim",
+      "description": "",
+      "tags": [
+        "TB04",
+        "TB07",
+        "TB14",
+        "converter-auto-created"
+      ],
+      "isBlueprintItem": true
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "DI12",
+      "qType": "dimension"
+    },
+    "qDim": {
+      "qGrouping": "N",
+      "qFieldDefs": [
+        "FATMIN"
+      ],
+      "qFieldLabels": [
+        "Fat Min"
+      ],
+      "title": "Fat Min"
+    },
+    "qMetaDef": {
+      "title": "Fat Min",
+      "description": "",
+      "tags": [
+        "TB04",
+        "TB07",
+        "TB14",
+        "converter-auto-created"
+      ],
+      "isBlueprintItem": true
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "DI13",
+      "qType": "dimension"
+    },
+    "qDim": {
+      "qGrouping": "N",
+      "qFieldDefs": [
+        "OBJGLOBAL"
+      ],
+      "qFieldLabels": [
+        "Obj Global"
+      ],
+      "title": "Obj Global"
+    },
+    "qMetaDef": {
+      "title": "Obj Global",
+      "description": "",
+      "tags": [
+        "TB04",
+        "TB07",
+        "TB14",
+        "converter-auto-created"
+      ],
+      "isBlueprintItem": true
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "DI14",
+      "qType": "dimension"
+    },
+    "qDim": {
+      "qGrouping": "N",
+      "qFieldDefs": [
+        "TIPOPREMIACAO"
+      ],
+      "qFieldLabels": [
+        "TIPOPREMIACAO"
+      ],
+      "title": "TIPOPREMIACAO"
+    },
+    "qMetaDef": {
+      "title": "TIPOPREMIACAO",
+      "description": "",
+      "tags": [
+        "TB04",
+        "TB07",
+        "converter-auto-created"
+      ],
+      "isBlueprintItem": true
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "DI15",
+      "qType": "dimension"
+    },
+    "qDim": {
+      "qGrouping": "N",
+      "qFieldDefs": [
+        "TPFILTRO"
+      ],
+      "qFieldLabels": [
+        "TPFILTRO"
+      ],
+      "title": "TPFILTRO"
+    },
+    "qMetaDef": {
+      "title": "TPFILTRO",
+      "description": "",
+      "tags": [
+        "TB04",
+        "TB08",
+        "converter-auto-created"
+      ],
+      "isBlueprintItem": true
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "DI16",
+      "qType": "dimension"
+    },
+    "qDim": {
+      "qGrouping": "N",
+      "qFieldDefs": [
+        "DURACAO"
+      ],
+      "qFieldLabels": [
+        "DURACAO"
+      ],
+      "title": "DURACAO"
+    },
+    "qMetaDef": {
+      "title": "DURACAO",
+      "description": "",
+      "tags": [
+        "TB04",
+        "converter-auto-created"
+      ],
+      "isBlueprintItem": true
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "DI17",
+      "qType": "dimension"
+    },
+    "qDim": {
+      "qGrouping": "N",
+      "qFieldDefs": [
+        "MIXMIN"
+      ],
+      "qFieldLabels": [
+        "Mix Min"
+      ],
+      "title": "Mix Min"
+    },
+    "qMetaDef": {
+      "title": "Mix Min",
+      "description": "",
+      "tags": [
+        "TB07",
+        "TB14",
+        "converter-auto-created"
+      ],
+      "isBlueprintItem": true
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "DI18",
+      "qType": "dimension"
+    },
+    "qDim": {
+      "qGrouping": "N",
+      "qFieldDefs": [
+        "POSMINQTD"
+      ],
+      "qFieldLabels": [
+        "Pos Min Qtde"
+      ],
+      "title": "Pos Min Qtde"
+    },
+    "qMetaDef": {
+      "title": "Pos Min Qtde",
+      "description": "",
+      "tags": [
+        "TB07",
+        "TB14",
+        "converter-auto-created"
+      ],
+      "isBlueprintItem": true
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "DI19",
+      "qType": "dimension"
+    },
+    "qDim": {
+      "qGrouping": "N",
+      "qFieldDefs": [
+        "POSMINPERC"
+      ],
+      "qFieldLabels": [
+        "POSMINPERC"
+      ],
+      "title": "POSMINPERC"
+    },
+    "qMetaDef": {
+      "title": "POSMINPERC",
+      "description": "",
+      "tags": [
+        "TB07",
+        "converter-auto-created"
+      ],
+      "isBlueprintItem": true
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "DI2",
+      "qType": "dimension"
+    },
+    "qDim": {
+      "qGrouping": "N",
+      "qFieldDefs": [
+        "CODCAMP"
+      ],
+      "qFieldLabels": [
+        "Cód Campanha"
+      ],
+      "title": "Cód Campanha"
+    },
+    "qMetaDef": {
+      "title": "Cód Campanha",
+      "description": "",
+      "tags": [
+        "CH02",
+        "TB04",
+        "TB07",
+        "TB11",
+        "TB14",
+        "converter-auto-created"
+      ],
+      "isBlueprintItem": true
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "DI20",
+      "qType": "dimension"
+    },
+    "qDim": {
+      "qGrouping": "N",
+      "qFieldDefs": [
+        "%CampVend"
+      ],
+      "qFieldLabels": [
+        "%CampVend"
+      ],
+      "title": "%CampVend"
+    },
+    "qMetaDef": {
+      "title": "%CampVend",
+      "description": "",
+      "tags": [
+        "TB10",
+        "converter-auto-created"
+      ],
+      "isBlueprintItem": true
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "DI21",
+      "qType": "dimension"
+    },
+    "qDim": {
+      "qGrouping": "N",
+      "qFieldDefs": [
+        "FIXAS_CODCAMP"
+      ],
+      "qFieldLabels": [
+        "Fixas Cód Campanha"
+      ],
+      "title": "Fixas Cód Campanha"
+    },
+    "qMetaDef": {
+      "title": "Fixas Cód Campanha",
+      "description": "",
+      "tags": [
+        "TB10",
+        "TB11",
+        "TB16",
+        "converter-auto-created"
+      ],
+      "isBlueprintItem": true
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "DI22",
+      "qType": "dimension"
+    },
+    "qDim": {
+      "qGrouping": "N",
+      "qFieldDefs": [
+        "FIXAS_FATURAMENTO"
+      ],
+      "qFieldLabels": [
+        "FIXAS_FATURAMENTO"
+      ],
+      "title": "FIXAS_FATURAMENTO"
+    },
+    "qMetaDef": {
+      "title": "FIXAS_FATURAMENTO",
+      "description": "",
+      "tags": [
+        "TB10",
+        "converter-auto-created"
+      ],
+      "isBlueprintItem": true
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "DI23",
+      "qType": "dimension"
+    },
+    "qDim": {
+      "qGrouping": "N",
+      "qFieldDefs": [
+        "FIXAS_TIPOPREMIACAO"
+      ],
+      "qFieldLabels": [
+        "FIXAS_TIPOPREMIACAO"
+      ],
+      "title": "FIXAS_TIPOPREMIACAO"
+    },
+    "qMetaDef": {
+      "title": "FIXAS_TIPOPREMIACAO",
+      "description": "",
+      "tags": [
+        "TB10",
+        "converter-auto-created"
+      ],
+      "isBlueprintItem": true
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "DI24",
+      "qType": "dimension"
+    },
+    "qDim": {
+      "qGrouping": "N",
+      "qFieldDefs": [
+        "FIXAS_FATMIN"
+      ],
+      "qFieldLabels": [
+        "FIXAS_FATMIN"
+      ],
+      "title": "FIXAS_FATMIN"
+    },
+    "qMetaDef": {
+      "title": "FIXAS_FATMIN",
+      "description": "",
+      "tags": [
+        "TB10",
+        "converter-auto-created"
+      ],
+      "isBlueprintItem": true
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "DI25",
+      "qType": "dimension"
+    },
+    "qDim": {
+      "qGrouping": "N",
+      "qFieldDefs": [
+        "RANK_PREMIO"
+      ],
+      "qFieldLabels": [
+        "RANK_PREMIO"
+      ],
+      "title": "RANK_PREMIO"
+    },
+    "qMetaDef": {
+      "title": "RANK_PREMIO",
+      "description": "",
+      "tags": [
+        "TB10",
+        "converter-auto-created"
+      ],
+      "isBlueprintItem": true
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "DI26",
+      "qType": "dimension"
+    },
+    "qDim": {
+      "qGrouping": "N",
+      "qFieldDefs": [
+        "CODPREMIACAO"
+      ],
+      "qFieldLabels": [
+        "Cód Premiação"
+      ],
+      "title": "Cód Premiação"
+    },
+    "qMetaDef": {
+      "title": "Cód Premiação",
+      "description": "",
+      "tags": [
+        "TB10",
+        "TB11",
+        "TB16",
+        "converter-auto-created"
+      ],
+      "isBlueprintItem": true
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "DI27",
+      "qType": "dimension"
+    },
+    "qDim": {
+      "qGrouping": "N",
+      "qFieldDefs": [
+        "VLRPREMIO"
+      ],
+      "qFieldLabels": [
+        "Valor Prêmio"
+      ],
+      "title": "Valor Prêmio"
+    },
+    "qMetaDef": {
+      "title": "Valor Prêmio",
+      "description": "",
+      "tags": [
+        "TB10",
+        "TB11",
+        "TB16",
+        "converter-auto-created"
+      ],
+      "isBlueprintItem": true
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "DI28",
+      "qType": "dimension"
+    },
+    "qDim": {
+      "qGrouping": "N",
+      "qFieldDefs": [
+        "FIXAS_TEM_FATMIN"
+      ],
+      "qFieldLabels": [
+        "FIXAS_TEM_FATMIN"
+      ],
+      "title": "FIXAS_TEM_FATMIN"
+    },
+    "qMetaDef": {
+      "title": "FIXAS_TEM_FATMIN",
+      "description": "",
+      "tags": [
+        "TB10",
+        "converter-auto-created"
+      ],
+      "isBlueprintItem": true
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "DI29",
+      "qType": "dimension"
+    },
+    "qDim": {
+      "qGrouping": "N",
+      "qFieldDefs": [
+        "ATINGIU_MIN"
+      ],
+      "qFieldLabels": [
+        "ATINGIU_MIN"
+      ],
+      "title": "ATINGIU_MIN"
+    },
+    "qMetaDef": {
+      "title": "ATINGIU_MIN",
+      "description": "",
+      "tags": [
+        "TB10",
+        "converter-auto-created"
+      ],
+      "isBlueprintItem": true
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "DI3",
+      "qType": "dimension"
+    },
+    "qDim": {
+      "qGrouping": "N",
+      "qFieldDefs": [
+        "APELIDO"
+      ],
+      "qFieldLabels": [
+        "Vendedor"
+      ],
+      "title": "Vendedor"
+    },
+    "qMetaDef": {
+      "title": "Vendedor",
+      "description": "",
+      "tags": [
+        "CH02",
+        "CH04",
+        "CH06",
+        "CH07",
+        "CH08",
+        "CH12",
+        "CH13",
+        "CH14",
+        "converter-auto-created"
+      ],
+      "isBlueprintItem": true
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "DI30",
+      "qType": "dimension"
+    },
+    "qDim": {
+      "qGrouping": "N",
+      "qFieldDefs": [
+        "RATEIO_PREMIO"
+      ],
+      "qFieldLabels": [
+        "RATEIO_PREMIO"
+      ],
+      "title": "RATEIO_PREMIO"
+    },
+    "qMetaDef": {
+      "title": "RATEIO_PREMIO",
+      "description": "",
+      "tags": [
+        "TB10",
+        "converter-auto-created"
+      ],
+      "isBlueprintItem": true
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "DI31",
+      "qType": "dimension"
+    },
+    "qDim": {
+      "qGrouping": "N",
+      "qFieldDefs": [
+        "TOTALFAT_DOS_PREMIADOS"
+      ],
+      "qFieldLabels": [
+        "TOTALFAT_DOS_PREMIADOS"
+      ],
+      "title": "TOTALFAT_DOS_PREMIADOS"
+    },
+    "qMetaDef": {
+      "title": "TOTALFAT_DOS_PREMIADOS",
+      "description": "",
+      "tags": [
+        "TB10",
+        "converter-auto-created"
+      ],
+      "isBlueprintItem": true
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "DI32",
+      "qType": "dimension"
+    },
+    "qDim": {
+      "qGrouping": "N",
+      "qFieldDefs": [
+        "%Rateio"
+      ],
+      "qFieldLabels": [
+        "%Rateio"
+      ],
+      "title": "%Rateio"
+    },
+    "qMetaDef": {
+      "title": "%Rateio",
+      "description": "",
+      "tags": [
+        "TB10",
+        "converter-auto-created"
+      ],
+      "isBlueprintItem": true
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "DI33",
+      "qType": "dimension"
+    },
+    "qDim": {
+      "qGrouping": "N",
+      "qFieldDefs": [
+        "VLRPREMIO_tmp"
+      ],
+      "qFieldLabels": [
+        "VLRPREMIO_tmp"
+      ],
+      "title": "VLRPREMIO_tmp"
+    },
+    "qMetaDef": {
+      "title": "VLRPREMIO_tmp",
+      "description": "",
+      "tags": [
+        "TB11",
+        "converter-auto-created"
+      ],
+      "isBlueprintItem": true
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "DI34",
+      "qType": "dimension"
+    },
+    "qDim": {
+      "qGrouping": "N",
+      "qFieldDefs": [
+        "Indicador"
+      ],
+      "qFieldLabels": [
+        "Indicador"
+      ],
+      "title": "Indicador"
+    },
+    "qMetaDef": {
+      "title": "Indicador",
+      "description": "",
+      "tags": [
+        "TB14",
+        "converter-auto-created"
+      ],
+      "isBlueprintItem": true
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "DI35",
+      "qType": "dimension"
+    },
+    "qDim": {
+      "qGrouping": "N",
+      "qFieldDefs": [
+        "Tipo Objetivo"
+      ],
+      "qFieldLabels": [
+        "Tipo Objetivo"
+      ],
+      "title": "Tipo Objetivo"
+    },
+    "qMetaDef": {
+      "title": "Tipo Objetivo",
+      "description": "",
+      "tags": [
+        "TB14",
+        "converter-auto-created"
+      ],
+      "isBlueprintItem": true
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "DI36",
+      "qType": "dimension"
+    },
+    "qDim": {
+      "qGrouping": "N",
+      "qFieldDefs": [
+        "Tipo Premiação"
+      ],
+      "qFieldLabels": [
+        "Tipo Premiação"
+      ],
+      "title": "Tipo Premiação"
+    },
+    "qMetaDef": {
+      "title": "Tipo Premiação",
+      "description": "",
+      "tags": [
+        "TB14",
+        "converter-auto-created"
+      ],
+      "isBlueprintItem": true
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "DI4",
+      "qType": "dimension"
+    },
+    "qDim": {
+      "qGrouping": "N",
+      "qFieldDefs": [
+        "VLRMIN"
+      ],
+      "qFieldLabels": [
+        "Valor Mínimo"
+      ],
+      "title": "Valor Mínimo"
+    },
+    "qMetaDef": {
+      "title": "Valor Mínimo",
+      "description": "",
+      "tags": [
+        "CH02",
+        "TB10",
+        "TB11",
+        "TB16",
+        "converter-auto-created"
+      ],
+      "isBlueprintItem": true
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "DI5",
+      "qType": "dimension"
+    },
+    "qDim": {
+      "qGrouping": "N",
+      "qFieldDefs": [
+        "VLRMAX"
+      ],
+      "qFieldLabels": [
+        "Valor Máximo"
+      ],
+      "title": "Valor Máximo"
+    },
+    "qMetaDef": {
+      "title": "Valor Máximo",
+      "description": "",
+      "tags": [
+        "CH02",
+        "TB10",
+        "TB11",
+        "TB16",
+        "converter-auto-created"
+      ],
+      "isBlueprintItem": true
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "DI6",
+      "qType": "dimension"
+    },
+    "qDim": {
+      "qGrouping": "N",
+      "qFieldDefs": [
+        "Posicao"
+      ],
+      "qFieldLabels": [
+        "Ranking"
+      ],
+      "title": "Ranking"
+    },
+    "qMetaDef": {
+      "title": "Ranking",
+      "description": "",
+      "tags": [
+        "CH02",
+        "CH04",
+        "CH06",
+        "CH07",
+        "CH08",
+        "TB10",
+        "converter-auto-created"
+      ],
+      "isBlueprintItem": true
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "DI7",
+      "qType": "dimension"
+    },
+    "qDim": {
+      "qGrouping": "N",
+      "qFieldDefs": [
+        "PREMIOGANHO"
+      ],
+      "qFieldLabels": [
+        "Prêmio Ganho"
+      ],
+      "title": "Prêmio Ganho"
+    },
+    "qMetaDef": {
+      "title": "Prêmio Ganho",
+      "description": "",
+      "tags": [
+        "CH02",
+        "CH06",
+        "CH08",
+        "TB10",
+        "converter-auto-created"
+      ],
+      "isBlueprintItem": true
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "DI8",
+      "qType": "dimension"
+    },
+    "qDim": {
+      "qGrouping": "N",
+      "qFieldDefs": [
+        "DESCRCAMP"
+      ],
+      "qFieldLabels": [
+        "Campanha"
+      ],
+      "title": "Campanha"
+    },
+    "qMetaDef": {
+      "title": "Campanha",
+      "description": "",
+      "tags": [
+        "TB04",
+        "TB07",
+        "TB14",
+        "TB16",
+        "converter-auto-created"
+      ],
+      "isBlueprintItem": true
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "DI9",
+      "qType": "dimension"
+    },
+    "qDim": {
+      "qGrouping": "N",
+      "qFieldDefs": [
+        "DESCRFILTRO"
+      ],
+      "qFieldLabels": [
+        "DESCRFILTRO"
+      ],
+      "title": "DESCRFILTRO"
+    },
+    "qMetaDef": {
+      "title": "DESCRFILTRO",
+      "description": "",
+      "tags": [
+        "TB04",
+        "TB08",
+        "converter-auto-created"
+      ],
+      "isBlueprintItem": true
+    }
+  }
+]

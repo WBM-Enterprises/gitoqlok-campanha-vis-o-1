@@ -1,0 +1,390 @@
+{
+  "qInfos": [
+    {
+      "qId": "0fc28ca4-b7a8-4ba3-a035-9d785dd49ccd",
+      "qType": "table"
+    },
+    {
+      "qId": "29b7522c-cecf-40b7-9f6a-c7e2c45c2941",
+      "qType": "sheet",
+      "modifiedDate": "2020-12-22T12:36:52.706Z"
+    },
+    {
+      "qId": "4d17748a-0485-4471-be13-e5d6d3cb0e01",
+      "qType": "table"
+    },
+    {
+      "qId": "CH01",
+      "qType": "masterobject",
+      "modifiedDate": "2020-12-22T12:36:52.706Z"
+    },
+    {
+      "qId": "CH02",
+      "qType": "masterobject",
+      "modifiedDate": "2020-12-22T12:36:52.706Z"
+    },
+    {
+      "qId": "CH06",
+      "qType": "masterobject",
+      "modifiedDate": "2020-12-22T12:36:52.706Z"
+    },
+    {
+      "qId": "CH07",
+      "qType": "masterobject",
+      "modifiedDate": "2020-12-22T12:36:52.706Z"
+    },
+    {
+      "qId": "CH12",
+      "qType": "masterobject",
+      "modifiedDate": "2020-12-22T12:36:52.706Z"
+    },
+    {
+      "qId": "CH13",
+      "qType": "masterobject",
+      "modifiedDate": "2020-12-22T12:36:52.706Z"
+    },
+    {
+      "qId": "CH14",
+      "qType": "masterobject",
+      "modifiedDate": "2020-12-22T12:36:52.706Z"
+    },
+    {
+      "qId": "DI0",
+      "qType": "dimension",
+      "modifiedDate": "2020-12-22T12:36:52.706Z"
+    },
+    {
+      "qId": "DI1",
+      "qType": "dimension",
+      "modifiedDate": "2020-12-22T12:36:52.706Z"
+    },
+    {
+      "qId": "DI10",
+      "qType": "dimension",
+      "modifiedDate": "2020-12-22T12:36:52.706Z"
+    },
+    {
+      "qId": "DI11",
+      "qType": "dimension",
+      "modifiedDate": "2020-12-22T12:36:52.706Z"
+    },
+    {
+      "qId": "DI12",
+      "qType": "dimension",
+      "modifiedDate": "2020-12-22T12:36:52.706Z"
+    },
+    {
+      "qId": "DI13",
+      "qType": "dimension",
+      "modifiedDate": "2020-12-22T12:36:52.706Z"
+    },
+    {
+      "qId": "DI14",
+      "qType": "dimension",
+      "modifiedDate": "2020-12-22T12:36:52.706Z"
+    },
+    {
+      "qId": "DI15",
+      "qType": "dimension",
+      "modifiedDate": "2020-12-22T12:36:52.706Z"
+    },
+    {
+      "qId": "DI16",
+      "qType": "dimension",
+      "modifiedDate": "2020-12-22T12:36:52.706Z"
+    },
+    {
+      "qId": "DI17",
+      "qType": "dimension",
+      "modifiedDate": "2020-12-22T12:36:52.706Z"
+    },
+    {
+      "qId": "DI18",
+      "qType": "dimension",
+      "modifiedDate": "2020-12-22T12:36:52.706Z"
+    },
+    {
+      "qId": "DI19",
+      "qType": "dimension",
+      "modifiedDate": "2020-12-22T12:36:52.706Z"
+    },
+    {
+      "qId": "DI2",
+      "qType": "dimension",
+      "modifiedDate": "2020-12-22T12:36:52.706Z"
+    },
+    {
+      "qId": "DI20",
+      "qType": "dimension",
+      "modifiedDate": "2020-12-22T12:36:52.706Z"
+    },
+    {
+      "qId": "DI21",
+      "qType": "dimension",
+      "modifiedDate": "2020-12-22T12:36:52.706Z"
+    },
+    {
+      "qId": "DI22",
+      "qType": "dimension",
+      "modifiedDate": "2020-12-22T12:36:52.706Z"
+    },
+    {
+      "qId": "DI23",
+      "qType": "dimension",
+      "modifiedDate": "2020-12-22T12:36:52.706Z"
+    },
+    {
+      "qId": "DI24",
+      "qType": "dimension",
+      "modifiedDate": "2020-12-22T12:36:52.706Z"
+    },
+    {
+      "qId": "DI25",
+      "qType": "dimension",
+      "modifiedDate": "2020-12-22T12:36:52.706Z"
+    },
+    {
+      "qId": "DI26",
+      "qType": "dimension",
+      "modifiedDate": "2020-12-22T12:36:52.706Z"
+    },
+    {
+      "qId": "DI27",
+      "qType": "dimension",
+      "modifiedDate": "2020-12-22T12:36:52.706Z"
+    },
+    {
+      "qId": "DI28",
+      "qType": "dimension",
+      "modifiedDate": "2020-12-22T12:36:52.706Z"
+    },
+    {
+      "qId": "DI29",
+      "qType": "dimension",
+      "modifiedDate": "2020-12-22T12:36:52.706Z"
+    },
+    {
+      "qId": "DI3",
+      "qType": "dimension",
+      "modifiedDate": "2020-12-22T12:36:52.706Z"
+    },
+    {
+      "qId": "DI30",
+      "qType": "dimension",
+      "modifiedDate": "2020-12-22T12:36:52.706Z"
+    },
+    {
+      "qId": "DI31",
+      "qType": "dimension",
+      "modifiedDate": "2020-12-22T12:36:52.706Z"
+    },
+    {
+      "qId": "DI32",
+      "qType": "dimension",
+      "modifiedDate": "2020-12-22T12:36:52.706Z"
+    },
+    {
+      "qId": "DI33",
+      "qType": "dimension",
+      "modifiedDate": "2020-12-22T12:36:52.706Z"
+    },
+    {
+      "qId": "DI34",
+      "qType": "dimension",
+      "modifiedDate": "2020-12-22T12:36:52.706Z"
+    },
+    {
+      "qId": "DI35",
+      "qType": "dimension",
+      "modifiedDate": "2020-12-22T12:36:52.706Z"
+    },
+    {
+      "qId": "DI36",
+      "qType": "dimension",
+      "modifiedDate": "2020-12-22T12:36:52.706Z"
+    },
+    {
+      "qId": "DI4",
+      "qType": "dimension",
+      "modifiedDate": "2020-12-22T12:36:52.706Z"
+    },
+    {
+      "qId": "DI5",
+      "qType": "dimension",
+      "modifiedDate": "2020-12-22T12:36:52.706Z"
+    },
+    {
+      "qId": "DI6",
+      "qType": "dimension",
+      "modifiedDate": "2020-12-22T12:36:52.706Z"
+    },
+    {
+      "qId": "DI7",
+      "qType": "dimension",
+      "modifiedDate": "2020-12-22T12:36:52.706Z"
+    },
+    {
+      "qId": "DI8",
+      "qType": "dimension",
+      "modifiedDate": "2020-12-22T12:36:52.706Z"
+    },
+    {
+      "qId": "DI9",
+      "qType": "dimension",
+      "modifiedDate": "2020-12-22T12:36:52.706Z"
+    },
+    {
+      "qId": "LoadModel",
+      "qType": "LoadModel"
+    },
+    {
+      "qId": "ME0",
+      "qType": "measure",
+      "modifiedDate": "2020-12-22T12:36:52.706Z"
+    },
+    {
+      "qId": "ME1",
+      "qType": "measure",
+      "modifiedDate": "2020-12-22T12:36:52.706Z"
+    },
+    {
+      "qId": "ME10",
+      "qType": "measure",
+      "modifiedDate": "2020-12-22T12:36:52.706Z"
+    },
+    {
+      "qId": "ME11",
+      "qType": "measure",
+      "modifiedDate": "2020-12-22T12:36:52.706Z"
+    },
+    {
+      "qId": "ME12",
+      "qType": "measure",
+      "modifiedDate": "2020-12-22T12:36:52.706Z"
+    },
+    {
+      "qId": "ME2",
+      "qType": "measure",
+      "modifiedDate": "2020-12-22T12:36:52.706Z"
+    },
+    {
+      "qId": "ME3",
+      "qType": "measure",
+      "modifiedDate": "2020-12-22T12:36:52.706Z"
+    },
+    {
+      "qId": "ME4",
+      "qType": "measure",
+      "modifiedDate": "2020-12-22T12:36:52.706Z"
+    },
+    {
+      "qId": "ME5",
+      "qType": "measure",
+      "modifiedDate": "2020-12-22T12:36:52.706Z"
+    },
+    {
+      "qId": "ME6",
+      "qType": "measure",
+      "modifiedDate": "2020-12-22T12:36:52.706Z"
+    },
+    {
+      "qId": "ME7",
+      "qType": "measure",
+      "modifiedDate": "2020-12-22T12:36:52.706Z"
+    },
+    {
+      "qId": "ME8",
+      "qType": "measure",
+      "modifiedDate": "2020-12-22T12:36:52.706Z"
+    },
+    {
+      "qId": "ME9",
+      "qType": "measure",
+      "modifiedDate": "2020-12-22T12:36:52.706Z"
+    },
+    {
+      "qId": "MXBxL",
+      "qType": "kpi"
+    },
+    {
+      "qId": "MtRerxE",
+      "qType": "auto-chart"
+    },
+    {
+      "qId": "QduYLfD",
+      "qType": "container"
+    },
+    {
+      "qId": "TB04",
+      "qType": "masterobject",
+      "modifiedDate": "2020-12-22T12:36:52.706Z"
+    },
+    {
+      "qId": "TB07",
+      "qType": "masterobject",
+      "modifiedDate": "2020-12-22T12:36:52.706Z"
+    },
+    {
+      "qId": "TB08",
+      "qType": "masterobject",
+      "modifiedDate": "2020-12-22T12:36:52.706Z"
+    },
+    {
+      "qId": "TB10",
+      "qType": "masterobject",
+      "modifiedDate": "2020-12-22T12:36:52.706Z"
+    },
+    {
+      "qId": "TB11",
+      "qType": "masterobject",
+      "modifiedDate": "2020-12-22T12:36:52.706Z"
+    },
+    {
+      "qId": "TB14",
+      "qType": "masterobject",
+      "modifiedDate": "2020-12-22T12:36:52.706Z"
+    },
+    {
+      "qId": "TB16",
+      "qType": "masterobject",
+      "modifiedDate": "2020-12-22T12:36:52.706Z"
+    },
+    {
+      "qId": "WmpG",
+      "qType": "auto-chart"
+    },
+    {
+      "qId": "bTpys",
+      "qType": "kpi"
+    },
+    {
+      "qId": "ed458ccd-2268-4d23-9290-6c2c4de70cdf",
+      "qType": "appprops",
+      "modifiedDate": "2020-12-22T12:36:52.706Z"
+    },
+    {
+      "qId": "hpHXwP",
+      "qType": "auto-chart"
+    },
+    {
+      "qId": "jEPPF",
+      "qType": "kpi"
+    },
+    {
+      "qId": "jpKTNe",
+      "qType": "kpi"
+    },
+    {
+      "qId": "mCpFH",
+      "qType": "kpi"
+    },
+    {
+      "qId": "rNJqJ",
+      "qType": "auto-chart"
+    },
+    {
+      "qId": "rQBUPw",
+      "qType": "kpi"
+    }
+  ]
+}

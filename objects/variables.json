@@ -1,0 +1,76 @@
+[
+  {
+    "qInfo": {
+      "qId": "3491ed5f-ef02-4bd8-aabd-d0237727f83f",
+      "qType": "variable"
+    },
+    "qMetaDef": {
+      "isBlueprintItem": true
+    },
+    "qName": "vDadosTransformados",
+    "qNumberPresentation": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    },
+    "qDefinition": "[lib://Transformados (ramada_marcio)/Campanhas/QVDS/]",
+    "qIsScriptCreated": true
+  },
+  {
+    "qInfo": {
+      "qId": "vAbas",
+      "qType": "variable"
+    },
+    "qMetaDef": {
+      "isBlueprintItem": true
+    },
+    "qName": "vAbas",
+    "qNumberPresentation": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    },
+    "qDefinition": "0",
+    "tags": [
+      "converter-auto-created"
+    ]
+  },
+  {
+    "qInfo": {
+      "qId": "vQVD_E",
+      "qType": "variable"
+    },
+    "qMetaDef": {
+      "isBlueprintItem": true
+    },
+    "qName": "vQVD_E",
+    "qNumberPresentation": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    },
+    "qDefinition": "QVD_E",
+    "tags": [
+      "converter-auto-created"
+    ]
+  },
+  {
+    "qInfo": {
+      "qId": "vQVD_T",
+      "qType": "variable"
+    },
+    "qMetaDef": {
+      "isBlueprintItem": true
+    },
+    "qName": "vQVD_T",
+    "qNumberPresentation": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    },
+    "qDefinition": "QVD_T",
+    "tags": [
+      "converter-auto-created"
+    ]
+  }
+]
