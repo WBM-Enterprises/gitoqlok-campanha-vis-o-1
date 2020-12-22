@@ -1,4 +1,5 @@
 ///$tab Main
+//um comentario!
 SET ThousandSep='.';
 SET DecimalSep=',';
 SET MoneyThousandSep='.';
